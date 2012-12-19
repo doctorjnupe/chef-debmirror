@@ -22,7 +22,7 @@ def set_platform_default_providers
   Chef::Platform.set(
     :platform => :ubuntu,
     :resource => :debmirror,
-    :provider => Chef::Provider::ChefDebmirrorFdebmirror
+    :provider => Chef::Provider::DebmirrorFdebmirror
   )
 end
 
