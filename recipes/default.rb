@@ -1,5 +1,8 @@
-package "debmirror" do
-    action :install
+case node[:platform]  
+  when "ubuntu","debian"   
+    package "tmux" do     
+      action :install   
+    end 
   end
 
 
