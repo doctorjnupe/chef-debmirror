@@ -1,5 +1,6 @@
 actions :mirror_now #, :schedule_via_cron?
 
+
 attribute :target_dir, :name_attribute => true
 attribute :host, :kind_of => String, :default => 'archive.ubuntu.com'
 attribute :method, :kind_of => String, :equal_to => ['rsync', 'http']
