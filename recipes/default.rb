@@ -1,3 +1,8 @@
+package "debmirror" do
+    action :install
+  end
+
+
 
 debmirror '/share/opscode' do
   host 'apt.opscode.com'
