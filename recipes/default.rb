@@ -1,12 +1,3 @@
-case node[:platform]  
-  when "ubuntu","debian"   
-    package "debmirror" do     
-      action :install   
-    end 
-  end
-
-
-
 debmirror '/share/opscode' do
   host 'apt.opscode.com'
   root '/'
