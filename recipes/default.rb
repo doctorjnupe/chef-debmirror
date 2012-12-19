@@ -1,6 +1,6 @@
 case node[:platform]  
   when "ubuntu","debian"   
-    package "tmux" do     
+    package "debmirror" do     
       action :install   
     end 
   end
